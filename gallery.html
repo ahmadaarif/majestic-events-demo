@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Elite Events Management</title>
+  <meta name="description" content="Browse our portfolio of bespoke wedding lighting, luxury decor, and outdoor light walkways across Manchester, Midlands &amp; London." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVBAR
+       ============================================= -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        Elite <span class="logo-accent">Events</span> Management
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <a href="https://wa.me/447581395488" target="_blank" rel="noopener" class="nav-book" aria-label="Book via WhatsApp">
+        Book Now
+      </a>
+
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://wa.me/447581395488" target="_blank" rel="noopener" class="mobile-book">Book Now via WhatsApp</a>
+  </div>
+
+
+  <!-- =============================================
+       PAGE HERO
+       ============================================= -->
+  <header class="page-hero" role="banner">
+    <div class="container">
+      <span class="section-label fade-in">Our Portfolio</span>
+      <h1 class="fade-in delay-1">Our <em>Work</em></h1>
+      <div class="gold-divider fade-in delay-2"></div>
+      <p class="fade-in delay-3">Every image tells the story of a moment we helped make unforgettable.</p>
+    </div>
+  </header>
+
+
+  <!-- =============================================
+       GALLERY SECTION
+       ============================================= -->
+  <section class="gallery-section section" aria-label="Photo gallery">
+    <div class="container">
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters" role="group" aria-label="Filter gallery by category">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding-lighting">Wedding Lighting</button>
+        <button class="filter-btn" data-filter="wedding-decor">Wedding Decor</button>
+        <button class="filter-btn" data-filter="outdoor-walkways">Outdoor Walkways</button>
+      </div>
+
+      <!-- Masonry Gallery Grid -->
+      <!-- To add/remove images: copy or delete a .gallery-item block below -->
+      <div class="gallery-grid" role="list" aria-label="Gallery images">
+
+        <!-- ── Wedding Lighting ── -->
+
+        <div
+          class="gallery-item fade-in"
+          data-category="wedding-lighting"
+          data-caption="Wedding Lighting"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: bespoke wedding lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4349-high.jpg"
+            alt="Bespoke wedding lighting installation"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Lighting</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-1"
+          data-category="wedding-lighting"
+          data-caption="Wedding Lighting"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: wedding venue lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4348-high.jpg"
+            alt="Wedding venue atmospheric lighting"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Lighting</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-2"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: luxury wedding decor"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4340-high.jpg"
+            alt="Luxury wedding decor arrangement"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in"
+          data-category="wedding-lighting"
+          data-caption="Wedding Lighting"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: feature wedding lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4346-high.jpg"
+            alt="Feature wedding lighting design"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Lighting</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-1"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: wedding decor styling"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4336-high.jpg"
+            alt="Wedding decor styling and centrepieces"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-2"
+          data-category="wedding-lighting"
+          data-caption="Wedding Lighting"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: ambient wedding lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4347-high.jpg"
+            alt="Ambient mood lighting for wedding"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Lighting</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: bespoke wedding decor"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4333-high-a9kmj0.jpg"
+            alt="Bespoke wedding decor installation"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-1"
+          data-category="outdoor-walkways"
+          data-caption="Outdoor Light Walkways"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: outdoor light walkway"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4342-high.jpg"
+            alt="Illuminated outdoor light walkway"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Outdoor Walkways</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-2"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: table styling and decor"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4334-high.jpg"
+            alt="Table styling and wedding centrepieces"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in"
+          data-category="outdoor-walkways"
+          data-caption="Outdoor Light Walkways"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: garden aisle lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4338-high.jpg"
+            alt="Garden aisle illumination pathway"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Outdoor Walkways</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-1"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: full venue decor transformation"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4335-high.jpg"
+            alt="Full venue decor transformation"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-2"
+          data-category="outdoor-walkways"
+          data-caption="Outdoor Light Walkways"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: entrance pathway lighting"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4337-high.jpg"
+            alt="Entrance pathway lighting design"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Outdoor Walkways</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: luxury mehendi setup"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4332-high.jpg"
+            alt="Luxury Mehendi setup and decor"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item fade-in delay-1"
+          data-category="wedding-decor"
+          data-caption="Wedding Decor"
+          role="listitem"
+          tabindex="0"
+          aria-label="Open image: aisle decor design"
+        >
+          <img
+            src="https://primary.jwwb.nl/public/n/e/q/temp-ffznxdnyvjvzcstqiwfw/img_4331-high.jpg"
+            alt="Aisle and walkway decor design"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wedding Decor</span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /gallery-grid -->
+
+
+      <!-- CTA at bottom of gallery -->
+      <div class="gallery-cta-block fade-in">
+        <span class="section-label">Inspired?</span>
+        <h2>Love What You See?</h2>
+        <div class="gold-divider"></div>
+        <p>Every event we create is entirely bespoke. Get in touch and let's bring your vision to life.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-solid">Get in Touch</a>
+          <a href="https://wa.me/447581395488" target="_blank" rel="noopener" class="btn">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>&nbsp; WhatsApp Us
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       LIGHTBOX (pure JS, no library)
+       ============================================= -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Close lightbox">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <img src="" alt="Gallery image enlarged" />
+      <button class="lightbox-nav lightbox-next" aria-label="Next image">
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+      </button>
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            Elite <span class="logo-accent">Events</span> Management
+          </a>
+          <p>Bespoke Wedding Lighting &amp; Decor across Manchester, Midlands &amp; London. Creating refined, luxury event environments since 2015.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/eliteevents.management" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://tiktok.com/@eliteevents.management" target="_blank" rel="noopener" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/447581395488" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="about.html#services">Wedding Decor</a></li>
+            <li><a href="about.html#services">Wedding Lighting</a></li>
+            <li><a href="about.html#services">Outdoor Walkways</a></li>
+            <li><a href="about.html#services">Mehendi Setups</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:+447581395488">07581 395488</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            <a href="https://wa.me/447581395488" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>Serving Manchester · Midlands · London</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2015 Elite Events Management. All rights reserved.</span>
+        <span>Designed with <i class="fa-solid fa-heart" style="color:var(--gold);font-size:0.7rem;" aria-hidden="true"></i> for luxury events</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <a href="https://wa.me/447581395488" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+  <a href="tel:+447581395488" class="floating-call" aria-label="Call us">
+    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
